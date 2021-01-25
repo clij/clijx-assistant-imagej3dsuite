@@ -102,4 +102,10 @@ public class ImageJ3DSuiteConnectedComponentsLabeling extends AbstractCLIJ2Plugi
     public String getOutputType() {
         return "Label Image";
     }
+    
+    
+    @Override
+    public ClearCLBuffer createOutputBufferFromSource(ClearCLBuffer input) {
+        return clij.create(input.getDimensions(), NativeTypeEnum.Float);
+    }
 }
