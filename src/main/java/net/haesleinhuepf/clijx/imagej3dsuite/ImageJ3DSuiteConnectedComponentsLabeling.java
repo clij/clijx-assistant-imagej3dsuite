@@ -6,6 +6,7 @@ import mcib3d.image3d.ImageFloat;
 import mcib3d.image3d.ImageHandler;
 import mcib3d.image3d.ImageLabeller;
 import net.haesleinhuepf.clij.clearcl.ClearCLBuffer;
+import net.haesleinhuepf.clij.coremem.enums.NativeTypeEnum;
 import net.haesleinhuepf.clij.macro.CLIJMacroPlugin;
 import net.haesleinhuepf.clij.macro.CLIJOpenCLProcessor;
 import net.haesleinhuepf.clij.macro.documentation.OffersDocumentation;
